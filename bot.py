@@ -36,7 +36,7 @@ async def start(event):
     buttons=(
        [
         Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url('creater', 'https://t.me/Sivatheboss')
     ],
     )
   )
@@ -50,7 +50,7 @@ async def help(event):
     buttons=(
       [
         Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url('creater', 'https://t.me/Sivatheboss')
       ]
     )
   )
