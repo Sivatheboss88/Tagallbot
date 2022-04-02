@@ -33,8 +33,12 @@ async def start(event):
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
     link_preview=False,
-    buttons=(
-       [
+    buttons = [
+    [
+        InlineKeyboardButton(
+                            text="☑️ Add to me your group ☑️",
+                            url="https://t.me/ssistantrrbot?startgroup=true"),
+                    ],
         Button.url('💫 cartoon ', 'https://t.me/pdiskshortenlinks'),
         Button.url('💖creater', 'https://t.me/Sivatheboss')
     ],
@@ -49,7 +53,6 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ add me',  'https://t.me/ssistantrrbot?startgroup=true'), 
         Button.url('💫 cartoon', 'https://t.me/pdiskshortenlinks'),
         Button.url('💖 creater', 'https://t.me/kittu_the_criminall')
       ]
