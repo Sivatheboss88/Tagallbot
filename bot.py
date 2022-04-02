@@ -35,9 +35,6 @@ async def start(event):
     link_preview=False,
     buttons = [
     [
-        InlineKeyboardButton(
-                            text="☑️ Add to me your group ☑️",
-                            url="https://t.me/ssistantrrbot?startgroup=true"),
                     ],
         Button.url('💫 cartoon ', 'https://t.me/pdiskshortenlinks'),
         Button.url('💖creater', 'https://t.me/Sivatheboss')
