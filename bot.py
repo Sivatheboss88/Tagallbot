@@ -49,7 +49,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ add me',. 'https://t.me/ssistantrrbot?startgroup=true'), 
+        Button.url('➕ add me',  'https://t.me/ssistantrrbot?startgroup=true'), 
         Button.url('💫 cartoon', 'https://t.me/pdiskshortenlinks'),
         Button.url('💖 creater', 'https://t.me/kittu_the_criminall')
       ]
