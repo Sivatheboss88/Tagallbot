@@ -35,8 +35,8 @@ async def start(event):
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url('💫 cartoon ', 'https://t.me/pdiskshortenlinks'),
+        Button.url('💖creater', 'https://t.me/Sivatheboss')
     ],
     )
   )
@@ -49,8 +49,9 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/chucky_support'),
-        Button.url('creater', 'https://t.me/kittu_the_criminall')
+        Button.url('➕ add me',. 'https://t.me/ssistantrrbot?startgroup=true'), 
+        Button.url('💫 cartoon', 'https://t.me/pdiskshortenlinks'),
+        Button.url('💖 creater', 'https://t.me/kittu_the_criminall')
       ]
     )
   )
