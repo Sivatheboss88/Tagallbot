@@ -35,6 +35,11 @@ async def start(event):
     link_preview=False,
     buttons = [
     [
+        InlineKeyboardButton(
+                            text="☑️ Add to me your group ☑️",
+                            url="https://t.me/ssistantrrbot?startgroup=true"),
+                    ],
+    [
                     ],
         Button.url('💫 cartoon ', 'https://t.me/pdiskshortenlinks'),
         Button.url('💖creater', 'https://t.me/Sivatheboss')
@@ -54,7 +59,6 @@ async def help(event):
         Button.url('💖 creater', 'https://t.me/kittu_the_criminall')
       ]
     )
-  )
   
 @client.on(events.NewMessage(pattern="^@all ?(.*)"))
 async def mentionall(event):
